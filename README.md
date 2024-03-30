@@ -61,3 +61,7 @@ Additional policy types include PolicyException and (Cluster)CleanupPolicy which
 # download ArgoCD
 ![image](https://github.com/rogerbarrow/k8s-kyverno-argocd/assets/46138186/9c17b4ff-9a30-44d3-b7fc-adfa40dab9d6)
 
+# Download Policy
+![image](https://github.com/rogerbarrow/k8s-kyverno-argocd/assets/46138186/fb924f24-4799-4599-8d7f-7e7ef0f29cf7)
+
+* ![image](https://github.com/rogerbarrow/k8s-kyverno-argocd/assets/46138186/d0b9c96a-24f3-4aa7-8a15-378cd60e7740)
