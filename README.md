@@ -65,3 +65,5 @@ Additional policy types include PolicyException and (Cluster)CleanupPolicy which
 ![image](https://github.com/rogerbarrow/k8s-kyverno-argocd/assets/46138186/fb924f24-4799-4599-8d7f-7e7ef0f29cf7)
 
 * ![image](https://github.com/rogerbarrow/k8s-kyverno-argocd/assets/46138186/d0b9c96a-24f3-4aa7-8a15-378cd60e7740)
+
+* ![image](https://github.com/rogerbarrow/k8s-kyverno-argocd/assets/46138186/a5b32c05-c4db-4d79-ba0c-31405fd64528)
