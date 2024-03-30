@@ -10,3 +10,11 @@ To explain the project with examples, using this configuration you can
 * Verify Images -> For example, Verify if the Images used in the pod resources are properly signed and verified images.
 
    # High Level Design
+On a very high level, A DevOps Engineer will write the required Kyverno Policy custom resource and commits it to a Git repository. Argo CD which is pre configured with auto-sync to watch for resources in the git repo, deploys the Kyverno Policies on to the Kubernetes cluster.
+* ![image](https://github.com/rogerbarrow/k8s-kyverno-argocd/assets/46138186/f1f49f2b-b8c5-481c-bdd5-e39593f05a96)
+
+  
+# Installation
+* To setup this project you need to install Argo CD controller and Kyverno controller, Assuming you have Kubernetes installed.
+
+* Installation of both Kyverno and Argo CD are pretty straight forward as both of them support Helm charts and also provide a consolidated installation yaml files.
