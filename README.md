@@ -33,6 +33,12 @@ On a very high level, A DevOps Engineer will write the required Kyverno Policy c
   *  ![image](https://github.com/rogerbarrow/k8s-kyverno-argocd/assets/46138186/12d404fa-6d84-4e6d-92cb-ade12f166965)
   *  ![image](https://github.com/rogerbarrow/k8s-kyverno-argocd/assets/46138186/16949947-89e4-4d2c-9bbf-5775eaac7227)
 
+# Argo CD
+There are three ways to install Argo CD
+
+* kubectl apply -f https://raw.githubusercontent.com/argoproj/argo-cd/master/manifests/install.yaml
+* Helm Charts, Follow the link
+* Using the Argo CD Operator, Follow the link
 
 
 
