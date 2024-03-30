@@ -55,5 +55,7 @@ Additional policy types include PolicyException and (Cluster)CleanupPolicy which
 # Step 1 start a mini Kube Clouster
 ![image](https://github.com/rogerbarrow/k8s-kyverno-argocd/assets/46138186/f490dfd9-2b24-45a6-8cc8-32cc5d52aad0)
 
+# Download Kyverno
+![image](https://github.com/rogerbarrow/k8s-kyverno-argocd/assets/46138186/2ff7a68f-e1f2-4267-8e19-d93a11af4abe)
 
 
