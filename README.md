@@ -68,5 +68,5 @@ Additional policy types include PolicyException and (Cluster)CleanupPolicy which
 
 * ![image](https://github.com/rogerbarrow/k8s-kyverno-argocd/assets/46138186/a5b32c05-c4db-4d79-ba0c-31405fd64528)
 
-# Attempt to Create pod- 
+# Attempt to Create pod- Request should Fail because of Kyverno
 ![image](https://github.com/rogerbarrow/k8s-kyverno-argocd/assets/46138186/17834782-38ea-4204-8a40-31d6958ab4a0)
