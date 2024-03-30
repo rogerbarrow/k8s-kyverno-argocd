@@ -18,3 +18,8 @@ On a very high level, A DevOps Engineer will write the required Kyverno Policy c
 * To setup this project you need to install Argo CD controller and Kyverno controller, Assuming you have Kubernetes installed.
 
 * Installation of both Kyverno and Argo CD are pretty straight forward as both of them support Helm charts and also provide a consolidated installation yaml files.
+ # Kyverno
+ There are two easy ways to install kyverno:
+
+* Using Helm
+* Using the kubernetes manifest files
