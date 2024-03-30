@@ -40,6 +40,17 @@ There are three ways to install Argo CD
 * Helm Charts, Follow the link
 * Using the Argo CD Operator, Follow the link
 
+# Demystifying Kyverno & Kyverno Policies
+Kyverno is a policy engine designed for Kubernetes
+
+A Kyverno policy is a collection of rules. Each rule consists of a match declaration, an optional exclude declaration, and one of a validate, mutate, generate, or verifyImages declaration. Each rule can contain only a single validate, mutate, generate, or verifyImages child declaration.
+![image](https://github.com/rogerbarrow/k8s-kyverno-argocd/assets/46138186/77e6333a-17db-48ec-be66-cc226e7aac77)
+
+Policies can be defined as cluster-wide resources (using the kind ClusterPolicy) or namespaced resources (using the kind Policy.) As expected, namespaced policies will only apply to resources within the namespace in which they are defined while cluster-wide policies are applied to matching resources across all namespaces. Otherwise, there is no difference between the two types.
+
+Additional policy types include PolicyException and (Cluster)CleanupPolicy which are separate resources and described further in the documentation.
+ # Architecture
+ ![image](https://github.com/rogerbarrow/k8s-kyverno-argocd/assets/46138186/6353216e-ab5f-42cb-ad5e-97875869f143)
 
 
 
