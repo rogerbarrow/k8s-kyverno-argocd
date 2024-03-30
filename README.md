@@ -29,5 +29,7 @@ On a very high level, A DevOps Engineer will write the required Kyverno Policy c
   * ![image](https://github.com/rogerbarrow/k8s-kyverno-argocd/assets/46138186/1f0b491e-241c-475c-a440-05e47f815632)
   * Install kyverno in HA mode
   *  helm install kyverno kyverno/kyverno -n kyverno --create-namespace --set replicaCount=3
+  *  ![image](https://github.com/rogerbarrow/k8s-kyverno-argocd/assets/46138186/bbd84430-5c49-4a0a-b0ff-84df1d443183)
+
 
 
